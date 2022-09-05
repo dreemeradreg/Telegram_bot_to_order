@@ -17,7 +17,7 @@ import binascii
 from Crypto.Util.Padding import pad, unpad
 from Crypto.Cipher import AES
 # key bot
-bot = telebot.TeleBot('1270839634:AAESrDOO1I8zHmgd3uMuD3vPbEqtYdrth60') # мой 
+bot = telebot.TeleBot('твой токен') # мой 
 key_aes_128 = 'fe5ghe56j7kkt78kl8g787gf5j54g4ek'
 BLOCK_SIZE = 32
 
@@ -59,7 +59,6 @@ words_dot_chat = {
 			"хуй":"в рот себе засунь",
 			"пошел нахуй":"только если с тобой",
 			"иди нахуй":"а ты присоединишься?",
-			# "как выростить хороший стафф?":"https://telegra.ph/Groupediya-Dzagi-05-19",
 			"говно":"что именно?",
 			"хуйня":"Не ругайся пожалуйста )",
 			"чё есть?":"Много чего кнопочки в помощь!",
